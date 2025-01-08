@@ -21,7 +21,7 @@ function tampilkanHasil() {
     document.getElementById("result").innerText = hasil;
   } else {
     document.getElementById("result").innerText =
-      "Hanya masukan satu angka saja !";
+      "Gak kerasa, masukinya salah Mas!";
   }
 }
 
