@@ -21,7 +21,7 @@ function tampilkanHasil() {
     document.getElementById("result").innerText = hasil;
   } else {
     document.getElementById("result").innerText =
-      "Gak kerasa, masukinya salah Mas!";
+      "Awww.., masukinya salah Mas! 👎";
   }
 }
 
@@ -34,3 +34,11 @@ function clearInput() {
 // Event listeners
 document.getElementById("teangan").addEventListener("click", tampilkanHasil);
 document.getElementById("clearButton").addEventListener("click", clearInput);
+
+function showThumbsUp() {
+  var notification = document.getElementById('thumbsUpNotification');
+  notification.style.display = 'block';
+  setTimeout(function() {
+      notification.style.display = 'none'; // Menyembunyikan notifikasi setelah 2 detik
+  }, 3000);
+}
