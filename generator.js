@@ -427,3 +427,8 @@ window.onload = function () {
    args.str = (typeof args.str !== "undefined") ? args.str.toString() : "";
    doStuff(args.str);
 };
+function copyText() {  
+  var copyText = document.getElementById("text-copy");  
+  copyText.select();  
+  document.execCommand("copy");
+}

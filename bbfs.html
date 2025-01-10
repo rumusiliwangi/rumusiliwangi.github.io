@@ -26,16 +26,19 @@
         <span style="font-size: large;"><h3>Angka Tarung</h3></span>
         </div>
         <div>
-        <input maxlength="10" name="inputstring" type="number" style="text-align: center;" placeholder="Lebetkeun angka" /><br />
+        <input maxlength="10" name="inputstring" type="number" style="text-align: center;" placeholder="Lebetkeun angkana" /><br />
         </div><div>
+          <p class="jenis">Pilih Jenis BBFS</p>
         <select class="teuing" name="maxwidth"><option value="2">2D</option><option value="3">3D</option><option value="4">4D</option><option value="5">5D</option><option value="6">6D</option></select>
         <select id="select1"><option value=",">,</option></select></div>
         <div>
-        <input class="duka" onclick="javascript:GeneratePermutations()" type="button" value="Generate" /> <input onclick="javascript:ClearReset()" type="button" value="Bersihkeun" />        </div>
+        <input class="duka" onclick="javascript:GeneratePermutations()" type="button" value="Gaskeun" /> <input onclick="javascript:ClearReset()" type="button" value="Bersihkeun" /></div>
         <input disabled="disabled" name="chkbx_comma" type="hidden" value="ON" /><br />
         <input class="gabut" name="feedback" readonly size="30" style="text-align:center;" placeholder="Keterangan"/><br />
-        <textarea cols="70" name="permlist" rows="5" style="font-size: 13px; width: 90%;" wrap="virtual"></textarea><br />
+        <textarea id="text-copy" cols="70" name="permlist" rows="5" style="font-size: 13px; width: 90%;" wrap="virtual"></textarea><br />
     </form>
+    <button class="btn btn-copy rounded-pill teuapal" onclick="copyText()">
+      <span class="fa fa-copy"></span> Salin Angka</button>
     </div>
     </form>
     <p>© 2025 萬無一失的公式 PR3.</p>
@@ -46,7 +49,6 @@
     let warnaTulisan = document.querySelectorAll('tulisan');
 </script>
 <footer class="footer">
-  
 </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

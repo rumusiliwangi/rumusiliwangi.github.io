@@ -3,10 +3,16 @@
   min-height: 200px;
 }
 button {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 30px;
 }
 .bbfs {
+  font-family: monospace;
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+}
+.teuapal {
   font-family: monospace;
   color: #fff;
   font-family: monospace;
@@ -26,4 +32,9 @@ h3 {
 }
 .gabut {
   margin-bottom: 5px;
+}
+.jenis {
+  margin-top: 5px;
+  margin-bottom: -10px;
+  font-weight: bold;
 }
