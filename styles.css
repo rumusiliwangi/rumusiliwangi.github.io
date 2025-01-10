@@ -26,6 +26,14 @@ h3 {
 }
 .duka {
   margin-top: 10px;
+  background-color: rgb(226, 43, 141);
+  color: #fff;
+  border-color: #fff;
+}
+.sasapu {
+  background-color: rgb(8, 156, 243);
+  color: #fff;
+  border-color: #fff;
 }
 .teuing {
   margin-top: 10px;
