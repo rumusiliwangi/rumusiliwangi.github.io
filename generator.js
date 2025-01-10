@@ -207,7 +207,7 @@ if (display_list) {
 
   currentDate = new Date();
   seconds = Math.round( ( currentDate.valueOf() - seconds ) / 100 ) / 10;      // round to 1/10 of a second
-  window.document.interfaceform.feedback.value = "Jumlah LN: " + atleast + perms + "   -   Waktu: " + seconds + " detik"
+  window.document.interfaceform.feedback.value = "Jumlah Pasangan: " + atleast + perms;
   if (display_list) {
     window.document.interfaceform.permlist.value = output_text.substring(delimiter.length) + ellipsis;
   } else {
