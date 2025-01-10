@@ -58,10 +58,8 @@ button {
       transparent 50% 90%,
       #f5cbbc99
     ),
-    /* lớp trên cùng làm hiệu ứng phủ sáng */
       repeating-linear-gradient(60deg, #bc058255 0 10px, transparent 10px 20px),
-    /* lLớp này tạo ra một hiệu ứng đường kẻ lặp đi lặp lại */
-      linear-gradient(to bottom, #ef08a6, #ee6c8f); /* lớp dưới cùng làm màu nền */
+      linear-gradient(to bottom, #ef08a6, #ee6c8f);
   color: #fff;
   font-family: monospace;
   font-weight: bold;
@@ -71,8 +69,6 @@ button {
   transition: 0.5s;
 }
 button:active {
-  /* lThay đổi các thông số thứ 2 ( khỏng cách xuống phía dưới về 0 
-    và dịch chuyển button xuống bên dươi 5px tạo ra hiệu ứng nhấp chuột giống thật) */
   box-shadow: 0 0px 0 #0005, 0 0px 0 #bd1360, 0 0px 0 7px #fff,
     0 0 30px 30px #e260ae;
   transform: translateY(5px);
