@@ -11,6 +11,7 @@ button {
   color: #fff;
   font-family: monospace;
   font-weight: bold;
+  margin-top: -3px;
 }
 .teuapal {
   font-family: monospace;
@@ -48,4 +49,10 @@ h3 {
 }
 #select1 {
   display: none;
+}
+.ceker {
+  display: none;
+}
+.footer {
+  margin-top: 15px;
 }
