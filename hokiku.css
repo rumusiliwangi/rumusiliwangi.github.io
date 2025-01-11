@@ -1,0 +1,116 @@
+/* Reset beberapa gaya default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+.jodol {
+  margin-bottom: 30px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-family: monospace;
+  font-size: 23px;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+.footer {
+  margin-bottom: 50px;
+}
+/* Menambahkan latar belakang untuk angka */
+.angka {
+  background-color: #f1f1f1; /* Warna latar belakang yang lebih cerah */
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* Warna latar belakang berdasarkan hari */
+.senin {
+  background-color: #87ceeb; /* Biru Langit */
+}
+
+.selasa {
+  background-color: #98fb98; /* Hijau Pucat */
+}
+
+.rabu {
+  background-color: #ffd700; /* Emas */
+}
+
+.kamis {
+  background-color: #ff6347; /* Tomat */
+}
+
+.jumat {
+  background-color: #ff8c00; /* Oranye */
+}
+
+.sabtu {
+  background-color: #ffd700; /* Emas */
+}
+
+.minggu {
+  background-color: #d3d3d3; /* Abu-abu Terang */
+}
+
+/* Responsif: Menggunakan media query untuk layar kecil */
+@media (max-width: 600px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  td {
+    padding-left: 50%;
+    text-align: left;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+  }
+}
+
