@@ -7,14 +7,14 @@ body{
 .title{
     text-align: center;
     color:#eee;
-    padding:100px 50px 50px;
+    padding:50px 50px 50px;
 }
 .title h3{
     opacity: .5;
 }
 #loading{
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     background-color: #996DAA;
     margin:auto;
     border-radius: 50%;
@@ -66,6 +66,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 25px;
     color:#D6F2F3;
 }
