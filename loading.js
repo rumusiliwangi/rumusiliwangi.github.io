@@ -14,8 +14,7 @@ function startLoading(){
     if(count == 100){
         valueShow.innerHTML = "Finish";
         count = 0;
-        // Mengarahkan ke halaman website tertentu setelah loading selesai
-        window.location.href = 'utama.html'; // Ganti dengan URL yang diinginkan
+        window.location.href = 'utama.html';
         return;
     }else{
         count = count + 1;
