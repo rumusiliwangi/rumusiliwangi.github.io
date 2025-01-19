@@ -56,10 +56,10 @@ body{
 }
 #value-show{
     position: absolute;
-    top:40px;
-    left:40px;
-    width:calc(100% - 80px);
-    height:calc(100% - 80px);
+    top:30px;
+    left:30px;
+    width:calc(100% - 60px);
+    height:calc(100% - 60px);
     border-radius: 50%;
     background-image: radial-gradient(#9679B6, #845b97);
     z-index: 2;
@@ -68,4 +68,9 @@ body{
     align-items: center;
     font-size: 25px;
     color:#D6F2F3;
+}
+.footer {
+    text-align: center;
+    color: #ffff;
+    margin-top: 50px;
 }
