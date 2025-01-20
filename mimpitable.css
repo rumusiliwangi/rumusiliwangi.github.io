@@ -6,15 +6,26 @@
 body {
   background-color: rgb(208, 204, 200);
 }
+@font-face {
+  font-family: "Kahlil";
+  src: url("Kahlil.otf");
+}
+h2 {
+  font-family: "Kahlil";
+}
 .table-mimpi {
   margin-top: 10px;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 .angka {
   font-weight: 600;
   text-align: center;
 }
 .pintasan {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #backToTop {
   position: fixed;
