@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(208, 204, 200);
+}
 .table-mimpi {
   margin-top: 10px;
 }
@@ -12,4 +15,44 @@
 }
 .pintasan {
   margin-top: 30px;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#backToTop:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Ikon panah ke atas */
+#backToTop::before {
+  content: '↑';
+  font-size: 24px;
+}
+
+/* Efek saat tombol muncul */
+#backToTop.show {
+  opacity: 1;
+}
+
+/* Efek tombol muncul secara smooth */
+#backToTop.show {
+  transform: scale(1);
 }
