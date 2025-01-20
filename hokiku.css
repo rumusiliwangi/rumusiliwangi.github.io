@@ -160,3 +160,6 @@ th {
 #backToTop.show {
   transform: scale(1);
 }
+.pintasan {
+  margin-top: 30px;
+}
