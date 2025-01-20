@@ -29,7 +29,6 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -161,5 +160,5 @@ th {
   transform: scale(1);
 }
 .pintasan {
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
