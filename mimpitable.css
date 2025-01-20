@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table-mimpi {
+  margin-top: 10px;
+}
+.angka {
+  font-weight: 600;
+  text-align: center;
+}
+.pintasan {
+  margin-top: 30px;
+}
