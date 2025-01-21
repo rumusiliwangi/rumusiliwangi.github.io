@@ -3,7 +3,7 @@ var arrFactory = [];
 var arrTree = [];
 var newFactory;
 var interval = 800;
-//var counter = 1;
+var counter = 1;
 
 function createGame() {
     for (let i = 0; i < 30; i++) {
@@ -24,8 +24,8 @@ function replay() {
             box.classList.remove('tree');
 
         });
-        //counter += 1;
-        //document.querySelector('.counter').innerHTML = 'Level: ' + counter;
+        counter += 1;
+        document.querySelector('.counter').innerHTML = 'Level: ' + counter;
         document.querySelector('.hidden').classList.add('levelUp')
         let bang = document.querySelector('.won');
         newFactory = setInterval(randomFactory, 600);
