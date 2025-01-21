@@ -7,6 +7,16 @@
 body {
   background-color: #f4c531;
 }
+@font-face {
+  font-family: "Kahlil";
+  src: url("../font/Kahlil.otf");
+}
+h2{
+  font-family: 'Kahlil';
+}
+.tombol {
+  margin-top: 30px;
+}
 .wrapper {
   box-sizing: content-box;
   width: 26.87em;
@@ -107,6 +117,9 @@ button {
 #result h4 {
   font-size: 1.8em;
   margin: 0.6em 0 1em 0;
+}
+.footer{
+  margin-top: 20px;
 }
 @media (max-width: 480px) {
   .wrapper {
