@@ -11,7 +11,7 @@ body {
 }
 @font-face {
   font-family: "Kahlil";
-  src: url("Kahlil.otf");
+  src: url("../font/Kahlil.otf");
 }
 h1 {
   font-family: "Kahlil";

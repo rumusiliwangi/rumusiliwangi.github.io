@@ -10,15 +10,15 @@ body {
 }
 @font-face {
   font-family: "Kahlil";
-  src: url("Kahlil.otf");
+  src: url("../font/Kahlil.otf");
 }
 @font-face {
   font-family: "Barakallah";
-  src: url("Barakallah.ttf");
+  src: url("../font/Barakallah.ttf");
 }
 @font-face {
   font-family: "Simple";
-  src: url("Simple.otf");
+  src: url("../font/Simple.otf");
 }
 h1 {
     font-family: 'Kahlil';

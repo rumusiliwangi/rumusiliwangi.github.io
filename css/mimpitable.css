@@ -8,7 +8,7 @@ body {
 }
 @font-face {
   font-family: "Kahlil";
-  src: url("Kahlil.otf");
+  src: url("../font/Kahlil.otf");
 }
 h2 {
   font-family: "Kahlil";
