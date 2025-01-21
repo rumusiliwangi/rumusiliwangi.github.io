@@ -125,6 +125,7 @@ button {
   .wrapper {
     width: 85vw; /* Lebih kecil lagi pada perangkat mobile */
     padding: 1.5em;
+    margin-top: 50px;
   }
 
   /* Mengubah grid agar lebih fleksibel */
