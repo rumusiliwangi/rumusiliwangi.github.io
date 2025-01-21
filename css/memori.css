@@ -15,7 +15,7 @@ h2{
   font-family: 'Kahlil';
 }
 .tombol {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .wrapper {
   box-sizing: content-box;
@@ -125,7 +125,7 @@ button {
   .wrapper {
     width: 85vw; /* Lebih kecil lagi pada perangkat mobile */
     padding: 1.5em;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   /* Mengubah grid agar lebih fleksibel */
