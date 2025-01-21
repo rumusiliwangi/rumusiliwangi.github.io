@@ -107,3 +107,32 @@ button {
   font-size: 1.8em;
   margin: 0.6em 0 1em 0;
 }
+@media (max-width: 480px) {
+  .wrapper {
+    width: 95vw; /* Lebih kecil lagi pada perangkat mobile */
+    padding: 1.5em;
+  }
+
+  /* Mengubah grid agar lebih fleksibel */
+  .game-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .card-container {
+    width: 100%;
+    padding-top: 100%; /* Tetap mempertahankan rasio persegi */
+  }
+
+  .controls-container button {
+    font-size: 1em;
+    padding: 0.7em 1em;
+  }
+
+  #result h2 {
+    font-size: 1.8em;
+  }
+
+  #result h4 {
+    font-size: 1.3em;
+  }
+}
