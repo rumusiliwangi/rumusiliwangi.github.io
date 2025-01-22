@@ -121,7 +121,7 @@ button {
 .footer{
   margin-top: 20px;
 }
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .wrapper {
     width: 85vw; /* Lebih kecil lagi pada perangkat mobile */
     padding: 1.5em;
